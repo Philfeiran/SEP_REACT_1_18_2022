@@ -36,9 +36,44 @@
         height: 10px;
        
     }
+    #bottom{
+       
+        display: flex;
+       flex-direction: row;
+       justify-content: center; 
+       padding-top: 20px;
+    }
     #agreecheck{
-        margin-top: 20px;
-        margin-right: 385px;
+        padding-right: 20px;
+       
+    }
+    #text{
+        padding-left: 20px;
+        width: 387px;
+        font-size: 10px;
+        text-align: left;
+    }
+    #buttonlike{
+        background-color:rgba(69, 139, 202) ;
+        color:white;
+    }
+    #tc{
+        color: rgba(69, 139, 202);
+    }
+    button{
+        width: 200px;
+        height: 30px;
+        color:white;
+        border:0px;
+        border-radius: 5%;
+    }
+    #Register{
+        background-color: rgba(69, 139, 202);
+        margin-right: 30px;
+    }
+    #Signin{
+        background-color:rgba(92, 184, 92);
+        
     }
 </style>      
 </head>
@@ -55,8 +90,17 @@
     <input type="text" id="password" name="password" placeholder="Password">
     <input type="text" id="password" name="password" placeholder="comfird Password">
     <br>
-    <div id="agreecheck"><input type="checkbox" id="checkbox"><label>I agree</label></div>
+    <div id="bottom">
+        <div id="agreecheck">
+            <input type="checkbox" id="checkbox"><label>I Agree</label>
+        </div>
+        <div id="text">by clicking<span id="buttonlike"> Register </span>, you agree to the <span id="tc">Term and and Conditions</span> set out by this site, inculding out Cookie Use</div>
+    </div>
+    <br>
     
+        <button id="Register">Register</div>
+        <button id="Signin" >Sign in</div>
+            
 </body>
 
 </html>
