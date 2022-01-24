@@ -1,0 +1,27 @@
+p {
+    text-decoration: underline;
+    font-style: italic;
+    font-weight: bold;
+}
+
+button{
+    background-color: #66ccff;
+    width: 200px;
+    height: 30px;
+    color:white;
+    border:0px;
+    border-radius: 5%;
+}
+footer {
+    position: sticky;
+    bottom: 0;
+    text-align: center;
+    width: 100%;
+    background-color: rgb(179, 179, 179);
+}
+nav{
+   
+    background-color: rgb(185, 198, 211);
+    height: 80px;
+    
+}

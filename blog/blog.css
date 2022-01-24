@@ -1,0 +1,90 @@
+@import url("head.css");
+@import url("body.css");
+@import url("elements.css");
+
+.avatar {
+    width: 100%;
+    height: 60%;
+    
+}
+
+.memberCard{
+  
+    background-color: rgba(42, 111, 189, 0.2);
+    width: 300px;
+    box-shadow: 0 4px 8px 0 rgba(49, 125, 212, 0.2);
+    transition: 0.3s;
+    margin: 0 auto;
+}
+.postCard{
+    box-shadow: 4px 4px 8px 4px rgba(49, 125, 212, 0.2);
+    border-radius: 5%;
+    width: 60%;
+    height: 200px;
+    margin: 10px auto;
+    margin-top: 20px;
+   
+}
+.readmore{
+   
+    font-weight: bold;
+}
+.cards{
+    margin: 30px;
+    position: relative;
+    display: grid;
+    grid-template-columns:auto auto auto auto;
+    text-align: center;
+}
+
+.post{
+    
+    grid-template-columns:auto auto auto;
+}
+.date{
+    text-align: left;
+    padding-left: 10px;
+    opacity: 0.7;
+    
+}
+
+.authoravatar{
+    width: 80px;
+}
+.introduction {
+    text-decoration: none;
+    font-family: 'Times New Roman', Times, serif;
+}
+.postbody{
+    display: flex;
+    flex-direction: column;
+    right:0px;
+}
+
+.dateauthor{
+    display: flex;
+    flex-direction: column;
+    margin-left: 50px;
+}
+.article{
+    display:flex;
+    width: 90%;
+    flex-direction: column;
+    padding-left: 60px;
+}
+.illustration{
+    width: 400px;
+    display: block;
+}
+.context{
+    text-decoration: none;
+    font: 1em sans-serif;
+    font-weight: 600;
+}
+.buttonbar{
+    width: 100%;
+    text-align: center;
+}
+.author{
+    color: rgb(13, 215, 230);
+}
